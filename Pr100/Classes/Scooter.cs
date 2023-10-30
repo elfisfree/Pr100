@@ -18,6 +18,7 @@ namespace Pr100.Classes
 
         public override void PrintInfo()
         {
-            
+            Console.WriteLine($"Scooter: {Model}, Speed: {Speed}, Color: {Color}, License Category: {LicenseCategory}, Number of Wheels: {NumberOfWheels}, Engine: {Engine}, Is Rented: {(IsRented ? "Yes" : "No")}");
+        }
     }
 }
